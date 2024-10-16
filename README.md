@@ -58,4 +58,5 @@ You can access the help section at any time by typing `HELP`, `H`, `HE`, or `HEL
 ## License
 
 This project is open-source and available under the MIT License.
+
 [Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)

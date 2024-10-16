@@ -32,7 +32,7 @@ current_bot_move = "None"
 #Raises:
 #  exception: Any exception that may occur during the execution of the function.
 def get_player_input(player_input, player):
-        try:
+    try:
         player_input = player_input.upper()
         if player_input not in spots_played_list and player_input in avail_tic_spots:
             tic_tac_dic[player_input] = player
@@ -47,6 +47,7 @@ def get_player_input(player_input, player):
             get_player_input(input(f'Current Player is {player}: '), player)
     except exception as e:
         print(e)
+
 
 #Prints the current state of the game board.
 def display_game_board():
